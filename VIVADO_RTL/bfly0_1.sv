@@ -34,10 +34,10 @@ end
 assign SR_valid = (sr_valid_cnt != 0);
 
 // Twiddle factor ROMs (<2.8> fixed-point)
-logic signed [9:0] tw_add_real [0:3] = '{256, 256, 256, 181};
-logic signed [9:0] tw_add_imag [0:3] = '{0, 0, 0, -181};
-logic signed [9:0] tw_diff_real[0:3] = '{256, 0, 256, -181};
-logic signed [9:0] tw_diff_imag[0:3] = '{0, -256, 0, -181};
+parameter logic signed [9:0] tw_add_real [0:3] = '{256, 256, 256, 181};
+parameter logic signed [9:0] tw_add_imag [0:3] = '{0, 0, 0, -181};
+parameter logic signed [9:0] tw_diff_real[0:3] = '{256, 0, 256, -181};
+parameter logic signed [9:0] tw_diff_imag[0:3] = '{0, -256, 0, -181};
 
 logic signed [10:0] sum_real_reg  [0:15], sum_imag_reg  [0:15];
 logic signed [10:0] diff_real_reg [0:15], diff_imag_reg [0:15];
