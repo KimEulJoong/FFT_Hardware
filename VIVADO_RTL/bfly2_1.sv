@@ -24,8 +24,8 @@ module butterfly21 (
         local_valid;  // valid_in 1clk 딜레이, 32clk짜리 valid signal
 
     // Twiddle 계수 (<2.8> fixed-point)
-    logic signed [9:0] fac_real[0:7] = '{256, 256, 256, 0, 256, 181, 256, -181};
-    logic signed [9:0] fac_imag[0:7] = '{0, 0, 0, -256, 0, -181, 0, -181};
+    parameter logic signed [9:0] fac_real[0:7] = '{256, 256, 256, 0, 256, 181, 256, -181};
+    parameter logic signed [9:0] fac_imag[0:7] = '{0, 0, 0, -256, 0, -181, 0, -181};
 
     // 내부 레지스터 및 곱셈 결과
     logic signed [13:0]
