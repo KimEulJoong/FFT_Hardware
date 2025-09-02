@@ -8,6 +8,7 @@
 - **etc** : 완성본 기타 모음
 - **tb** : 사용한 testbench
 - **markdown** : fft 관련 공부한 정리 내용
+- **images** : README.md 관련 image 파일
 
 ---
 ### 7/25 진행사항
@@ -72,9 +73,21 @@ RTL 설계, Simulation, Synthesis, FPGA 구현까지 **Front-end Design Flow 전
 - **Floating Point FFT**
   - 고정밀도, 구현 용이
   - HW 리소스 소모 큼
+  <img src ="./images/floating_point1.png"><img>
+    **module 구성**    
+    
+  <img src = "./images/floating_point_fft2.png"><img>
+    **FFT 전체 구조 다이어그램**
+  
+  <img src = "./images/fft1.png"><img>
+    **FFT 하드웨어 구조**
+  
 - **Fixed Point FFT**
   - 자원 효율적
   - 비트 관리 필요 (rounding, saturation, CBFP)
+  <img src = "./images/fixed_point_fft.png"><img>
+    **Fixed_Point FFT Module 구조**
+    
 - **비교 결과**
   - Cosine 입력: Floating과 Fixed 출력 유사
   - Fixed에서는 SQNR 관리 필요
