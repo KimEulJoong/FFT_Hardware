@@ -1,4 +1,9 @@
 # FFT_Hardware
+-----
+
+## 파일 구조
+
+
 ---
 ### 7/25 진행사항
 - step0_0 simulation, verification
