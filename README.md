@@ -87,9 +87,10 @@ RTL 설계, Simulation, Synthesis, FPGA 구현까지 **Front-end Design Flow 전
 - **Fixed Point FFT**
   - 자원 효율적
   - 비트 관리 필요 (rounding, saturation, CBFP)
+  --------
   <img src = "./images/fixed_point_fft.png"><img>
     - **Fixed_Point FFT Module 구조**   
-    
+    ----------
 - **비교 결과**
   - Cosine 입력: Floating과 Fixed 출력 유사
   - Fixed에서는 SQNR 관리 필요
