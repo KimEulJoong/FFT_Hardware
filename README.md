@@ -2,7 +2,12 @@
 -----
 
 ## 파일 구조
-
+- **VIVADO_RTL** : 최종 프로젝트 결과
+- **module0_golden** : module0 완성본
+- **module1_golden** : module1 완성본
+- **etc** : 완성본 기타 모음
+- **tb** : 사용한 testbench
+- **markdown** : fft 관련 공부한 정리 내용
 
 ---
 ### 7/25 진행사항
